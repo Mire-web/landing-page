@@ -52,6 +52,8 @@
 
     .container{
         padding-top: 30px;
+        display:block;
+        align-content:center;
     }
 
     nav{
