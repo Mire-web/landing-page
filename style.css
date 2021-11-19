@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patrick+Hand&display=swap');
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    font-family: patrick Arial, Helvetica, sans-serif;
+}
+
+.layout{
+    position: relative;
+}
+
+
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+    padding: 0px 20px;
+    margin-bottom: auto;
+    background-color: #eee;
+    width: 100%;
+}
+
+#main{
+    margin-top: 120px;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#header-img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#email{
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+}
+
+#header h1{
+    font-family: lobster, cursive;
+}
+
+#form{
+    display: grid;
+    margin: 10px;
+    padding: auto;
+}
+
+ul{
+    display: flex;
+}
+
+#submit{
+    text-transform: uppercase;
+    border: 3px solid rgb(233, 194, 20);
+    background: transparent;
+    background-color: rgb(233, 194, 20);
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 5px;
+    height: auto;
+    align-self: center;
+    font-weight: 700;
+}
+
+#submit:hover{
+    background-color: orange;
+    border: 0;
+    padding: 5px;
+    transition: 1s;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#title{
+    display: block;
+    text-align: center;
+}
+
+iframe{
+    display: block;
+    margin: 50px auto;
+    padding: auto;
+}
+
+.icon{
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: orange;
+    size: 100px;
+}
+
+#icon .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 80vw;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0.5px 0.7px gray;
+}
+
+#pricing .title{
+    background-color: #ddd;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 750;
+    padding: 15px 0;
+}
+
+#pricing{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+
+.state-tag{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.btn{
+    text-transform: uppercase;
+    border: 3px solid rgb(233, 194, 20);
+    background: transparent;
+    background-color: rgb(233, 194, 20);
+    cursor: pointer;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    height: 40px;
+    width: 80%;
+    align-self: center;
+    font-weight: 700;
+    grid-row-end: auto;
+}
+
+#pricing ul{
+    display: block;
+    margin: 0;
+    padding: 0%;
+}
+
+#footer ul{
+    display: flex;
+    background-color: #ddd;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 50px;
+    font-weight: 500;
+    font-family: Lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px;
+    justify-content: flex-end;
+}
+#footer li{
+    list-style-type: none;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+#footer{
+    background-color: #ddd;
+    text-align: right;
+    padding: 20px;
+}
+
+#footer span{
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    color: #444;
+}
